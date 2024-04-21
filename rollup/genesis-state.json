@@ -1,0 +1,12 @@
+{
+    "state": {
+        "schemas":{
+            "null":{
+                "id":"null",
+                "key":[],
+                "allowedAddresses":[""]
+            }
+        },
+        "attestations":{}
+    }
+}
