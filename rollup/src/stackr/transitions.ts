@@ -12,7 +12,7 @@ const createSchema: STF<AttestationState, CreateSchemaType> = {
         REQUIRE(!Object.keys(state.schemas).includes(inputs.id), "Schema Id is already used");
         const client = new SignProtocolClient(SpMode.OffChain, {
             signType: OffChainSignType.EvmEip712,
-            account: privateKeyToAccount("0x3ee0b98170602505f22cdde50329f8f9d171019fdb400326f3352f296bbb8147")
+            account: privateKeyToAccount("Private Key")
         })
         client.createSchema({
             name: inputs.id,
